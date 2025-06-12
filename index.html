@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contoso Outdoor Company</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to right, #6fa3ef, #78e7a6);
+      }
+      header {
+        background-color: #0c4b6b;
+        color: white;
+        text-align: center;
+        padding: 1.5em 0;
+      }
+      nav {
+        background-color: #04334a;
+        padding: 1em;
+        text-align: center;
+      }
+      nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      section {
+        padding: 20px;
+        text-align: center;
+      }
+      .product-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 20px 0;
+      }
+      .product {
+        background: white;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 15px;
+        width: 250px;
+        margin: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s, box-shadow 0.2s;
+      }
+      .product img {
+        max-width: 100%;
+        height: 200px;
+        object-fit: contain;
+        border-radius: 6px;
+        background-color: #f5f5f5;
+        padding: 20px;
+      }
+      .product p {
+        margin: 8px 0;
+        color: #666;
+      }
+      .product .price {
+        font-size: 1.2em;
+        color: #2c3e50;
+        font-weight: bold;
+      }
+      .product .details {
+        font-size: 0.9em;
+        text-align: left;
+        margin-top: 10px;
+        padding: 10px;
+        background-color: #f9f9f9;
+        border-radius: 4px;
+      }
+      .product:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      }
+      footer {
+        text-align: center;
+        padding: 1em 0;
+        background-color: #0c4b6b;
+        color: white;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Contoso Outdoor Company</h1>
+      <p>Unfolding adventures with our gear!</p>
+    </header>
+
+    <nav>
+      <a href="#tents">Tents</a>
+      <a href="#backpacks">Backpacks</a>
+      <a href="#hiking-clothing">Hiking Clothing</a>
+    </nav>
+
+    <section id="tents">
+      <h2>Tents</h2>
+      <p>Unfold adventure with Contoso's range of tents.</p>
+      <div class="product-container">
+        <div class="product">
+          <img
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150'%3E%3Crect width='100%25' height='100%25' fill='%233498db'/%3E%3Ctext x='50%25' y='50%25' fill='white' font-family='Arial' font-size='72' text-anchor='middle' dy='.3em'%3E🏕️%3C/text%3E%3C/svg%3E"
+            alt="TrailMaster X4 Tent"
+          />
+          <h3>TrailMaster X4 Tent</h3>
+          <p class="price">$250</p>
+          <div class="details">
+            <p>• Spacious 4-person capacity</p>
+            <p>• All-season protection</p>
+            <p>• 2 vestibules for gear storage</p>
+            <p>• Setup time: 10 minutes</p>
+          </div>
+        </div>
+        <div class="product">
+          <img
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150'%3E%3Crect width='100%25' height='100%25' fill='%233498db'/%3E%3Ctext x='50%25' y='50%25' fill='white' font-family='Arial' font-size='72' text-anchor='middle' dy='.3em'%3E⛺%3C/text%3E%3C/svg%3E"
+            alt="Alpine Explorer Tent"
+          />
+          <h3>Alpine Explorer Tent</h3>
+          <p class="price">$360</p>
+          <div class="details">
+            <p>• Alpine-grade durability</p>
+            <p>• Built for extreme conditions</p>
+            <p>• Ultralight design (1.8kg)</p>
+            <p>• Quick 8-minute setup</p>
+          </div>
+        </div>
+        <div class="product">
+          <img
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150'%3E%3Crect width='100%25' height='100%25' fill='%233498db'/%3E%3Ctext x='50%25' y='50%25' fill='white' font-family='Arial' font-size='72' text-anchor='middle' dy='.3em'%3E🌟%3C/text%3E%3C/svg%3E"
+            alt="Sky View 2-Person Tent"
+          />
+          <h3>Sky View 2-Person Tent</h3>
+          <p class="price">$380</p>
+          <div class="details">
+            <p>• Mesh skylight roof</p>
+            <p>• Perfect for stargazing</p>
+            <p>• Lightweight (2.0kg)</p>
+            <p>• Easy 9-minute setup</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="backpacks">
+      <h2>Backpacks</h2>
+      <p>
+        Our backpack category is equipped to accompany you on every twist and
+        turn.
+      </p>
+      <div class="product-container">
+        <div class="product">
+          <img
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150'%3E%3Crect width='100%25' height='100%25' fill='%233498db'/%3E%3Ctext x='50%25' y='50%25' fill='white' font-family='Arial' font-size='72' text-anchor='middle' dy='.3em'%3E🎒%3C/text%3E%3C/svg%3E"
+            alt="Adventurer Pro Backpack"
+          />
+          <h3>Adventurer Pro Backpack</h3>
+          <p class="price">$60</p>
+          <div class="details">
+            <p>• 50L capacity</p>
+            <p>• Hydration compatible</p>
+            <p>• 7 storage compartments</p>
+            <p>• Rain cover included</p>
+          </div>
+        </div>
+        <div class="product">
+          <img
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150'%3E%3Crect width='100%25' height='100%25' fill='%233498db'/%3E%3Ctext x='50%25' y='50%25' fill='white' font-family='Arial' font-size='72' text-anchor='middle' dy='.3em'%3E🏔️%3C/text%3E%3C/svg%3E"
+            alt="Summit Climber Backpack"
+          />
+          <h3>Summit Climber Backpack</h3>
+          <p class="price">$70</p>
+          <div class="details">
+            <p>• 65L expedition capacity</p>
+            <p>• Ice axe attachments</p>
+            <p>• Adjustable torso length</p>
+            <p>• Waterproof material</p>
+          </div>
+        </div>
+        <div class="product">
+          <img
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150'%3E%3Crect width='100%25' height='100%25' fill='%233498db'/%3E%3Ctext x='50%25' y='50%25' fill='white' font-family='Arial' font-size='72' text-anchor='middle' dy='.3em'%3E🎿%3C/text%3E%3C/svg%3E"
+            alt="TrailLite Daypack"
+          />
+          <h3>TrailLite Daypack</h3>
+          <p class="price">$40</p>
+          <div class="details">
+            <p>• 20L day hike capacity</p>
+            <p>• Ultra-lightweight design</p>
+            <p>• Breathable back panel</p>
+            <p>• Quick-access pockets</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="hiking-clothing">
+      <h2>Hiking Clothing</h2>
+      <p>Step into nature with Contoso's outdoor hiking clothing.</p>
+      <div class="product-container">
+        <div class="product">
+          <img
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150'%3E%3Crect width='100%25' height='100%25' fill='%233498db'/%3E%3Ctext x='50%25' y='50%25' fill='white' font-family='Arial' font-size='72' text-anchor='middle' dy='.3em'%3E🧥%3C/text%3E%3C/svg%3E"
+            alt="Summit Chase Jacket"
+          />
+          <h3>Summit Chase Jacket</h3>
+          <p class="price">$60</p>
+          <div class="details">
+            <p>• 3-layer waterproof shell</p>
+            <p>• Adjustable hood</p>
+            <p>• Pit zips for ventilation</p>
+            <p>• Reflective details</p>
+          </div>
+        </div>
+        <div class="product">
+          <img
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150'%3E%3Crect width='100%25' height='100%25' fill='%233498db'/%3E%3Ctext x='50%25' y='50%25' fill='white' font-family='Arial' font-size='72' text-anchor='middle' dy='.3em'%3E👖%3C/text%3E%3C/svg%3E"
+            alt="Trail Blaze Pants"
+          />
+          <h3>Trail Blaze Pants</h3>
+          <p class="price">$80</p>
+          <div class="details">
+            <p>• Convertible to shorts</p>
+            <p>• UPF 50+ protection</p>
+            <p>• Articulated knees</p>
+            <p>• 6 secure pockets</p>
+          </div>
+        </div>
+        <div class="product">
+          <img
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150'%3E%3Crect width='100%25' height='100%25' fill='%233498db'/%3E%3Ctext x='50%25' y='50%25' fill='white' font-family='Arial' font-size='72' text-anchor='middle' dy='.3em'%3E👢%3C/text%3E%3C/svg%3E"
+            alt="TRESKPAR Boots"
+          />
+          <h3>TRESKPAR Boots</h3>
+          <p class="price">$120</p>
+          <div class="details">
+            <p>• Vibram® sole</p>
+            <p>• Waterproof membrane</p>
+            <p>• Ankle support</p>
+            <p>• Impact protection</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Contoso Outdoor Company. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
